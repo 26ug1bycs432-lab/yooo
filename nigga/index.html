@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join Northfield College's student hackathon: build a project, meet mentors, and compete for prizes this January."
+    />
+    <meta name="theme-color" content="#101410" />
+    <title>Buildathon 2027 — Northfield College</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Northfield Buildathon home">
+        <span class="brand-symbol" aria-hidden="true">&lt;/&gt;</span>
+        <span>NORTHFIELD <span class="brand-divider">/</span> BUILDATHON</span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">The event</a>
+        <a href="#prizes">Prizes</a>
+        <a href="#judges">Judges</a>
+        <a class="nav-cta" href="#register">Register <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div class="event-kicker"><span class="live-dot"></span> NORTHFIELD COLLEGE PRESENTS <span class="kicker-year">/ 2027</span></div>
+          <h1>Big ideas.<br /><span>Built together.</span></h1>
+          <p class="hero-description">
+            One weekend. A campus full of creators. Bring an idea, find your people, and make something that matters.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#register">Save your spot <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#about">Explore the event <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-icon" aria-hidden="true">◷</span>
+              <span><strong>JAN 23—24</strong><small>48 hours to make</small></span>
+            </div>
+            <span class="meta-separator" aria-hidden="true"></span>
+            <div class="meta-item">
+              <span class="meta-icon pin-icon" aria-hidden="true">⌖</span>
+              <span><strong>ON CAMPUS</strong><small>Northfield College</small></span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative illustration of a glowing idea">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="spark spark-one">✳</div>
+          <div class="spark spark-two">✦</div>
+          <div class="spark spark-three">✧</div>
+          <div class="core-glow"></div>
+          <div class="idea-card">
+            <span class="idea-card-label">YOUR NEXT BIG THING</span>
+            <span class="idea-symbol" aria-hidden="true">✳</span>
+            <span class="idea-card-caption">STARTS HERE<span class="blinking-cursor">_</span></span>
+          </div>
+          <span class="art-label art-label-top">IDEA_001</span>
+          <span class="art-label art-label-bottom">MAKE / TEST / REPEAT</span>
+        </div>
+        <div class="hero-index"><span>01</span> — 04</div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <div class="ticker" aria-label="Event highlights">
+        <div class="ticker-track" aria-hidden="true">
+          <span>MAKE SOMETHING REAL</span><i>✳</i><span>48 HOURS OF BUILDING</span><i>✳</i>
+          <span>STUDENT IDEAS, BIG IMPACT</span><i>✳</i><span>MAKE SOMETHING REAL</span><i>✳</i>
+          <span>48 HOURS OF BUILDING</span><i>✳</i><span>STUDENT IDEAS, BIG IMPACT</span><i>✳</i>
+        </div>
+      </div>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <span class="section-tag"><span>01</span> / THE EVENT</span>
+          <h2>This is your<br /><span>build weekend.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="about-lead">
+            A student hackathon is a friendly, fast-paced event where teams turn an idea into a working project.
+          </p>
+          <p>
+            In 48 hours, you’ll team up with fellow students, learn by doing, and show your work to a panel of judges.
+            No perfect idea or experience required—just curiosity and a willingness to build.
+          </p>
+          <a class="inline-link" href="#register">I’m in <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="event-facts">
+          <article class="fact-card">
+            <span class="fact-number">48<span>H</span></span>
+            <span class="fact-label">A full weekend to imagine, build, and demo.</span>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">2—4</span>
+            <span class="fact-label">Students per team. Bring a team or meet one here.</span>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">01<span>IDEA</span></span>
+            <span class="fact-label">Start with a problem you care about solving.</span>
+          </article>
+          <article class="fact-card fact-card-accent">
+            <span class="fact-number">ALL<span>LEVELS</span></span>
+            <span class="fact-label">First hackathon? You belong here, too.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section project-section" id="projects">
+        <div class="section-heading">
+          <span class="section-tag"><span>02</span> / WHAT TO BUILD</span>
+          <h2>Pick a problem.<br /><span>Make a dent.</span></h2>
+        </div>
+        <div class="project-intro">
+          <p>Choose a track, find a real-world challenge, and create a project that makes someone’s day a little better.</p>
+        </div>
+        <div class="track-grid">
+          <article class="track-card">
+            <span class="track-number">TRACK_01</span>
+            <span class="track-icon" aria-hidden="true">⌘</span>
+            <h3>Campus, reimagined</h3>
+            <p>Make student life more connected, accessible, and enjoyable.</p>
+            <span class="track-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="track-card">
+            <span class="track-number">TRACK_02</span>
+            <span class="track-icon" aria-hidden="true">◎</span>
+            <h3>People &amp; planet</h3>
+            <p>Build thoughtful ideas for healthier communities and a greener future.</p>
+            <span class="track-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="track-card">
+            <span class="track-number">TRACK_03</span>
+            <span class="track-icon" aria-hidden="true">✳</span>
+            <h3>Open innovation</h3>
+            <p>Have another idea? Surprise us. Your problem, your project, your way.</p>
+            <span class="track-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+        <p class="project-note"><span aria-hidden="true">↳</span> Projects are judged on creativity, usefulness, execution, and how clearly you tell the story.</p>
+      </section>
+
+      <section class="prize-section" id="prizes">
+        <div class="prize-orb" aria-hidden="true"></div>
+        <div class="prize-heading">
+          <span class="section-tag"><span>03</span> / THE PRIZES</span>
+          <h2>Good ideas<br />get <span>recognized.</span></h2>
+          <p>Build it. Demo it. Take home a little extra inspiration for what comes next.</p>
+        </div>
+        <div class="prize-list">
+          <article class="prize-row prize-first">
+            <span class="prize-place">01 <span>— FIRST PLACE</span></span>
+            <span class="prize-name">Grand prize</span>
+            <span class="prize-value">₹25,000</span>
+            <span class="prize-spark" aria-hidden="true">✳</span>
+          </article>
+          <article class="prize-row">
+            <span class="prize-place">02 <span>— RUNNER UP</span></span>
+            <span class="prize-name">Second place</span>
+            <span class="prize-value">₹15,000</span>
+            <span class="prize-spark" aria-hidden="true">✦</span>
+          </article>
+          <article class="prize-row">
+            <span class="prize-place">03 <span>— PEOPLE’S PICK</span></span>
+            <span class="prize-name">Community choice</span>
+            <span class="prize-value">₹10,000</span>
+            <span class="prize-spark" aria-hidden="true">✧</span>
+          </article>
+          <p class="prize-disclaimer">Illustrative prize amounts—confirm final awards with the event organizers.</p>
+        </div>
+      </section>
+
+      <section class="section schedule-section" id="schedule">
+        <div class="section-heading">
+          <span class="section-tag"><span>04</span> / THE PLAN</span>
+          <h2>Two days.<br /><span>One big build.</span></h2>
+        </div>
+        <div class="schedule-list">
+          <div class="schedule-day">
+            <div class="day-heading"><span>DAY 01</span><strong>Saturday, January 23</strong></div>
+            <div class="schedule-item"><time>09:00</time><span>Check-in, breakfast &amp; team intros</span><span class="schedule-type">ARRIVE</span></div>
+            <div class="schedule-item"><time>10:00</time><span>Kickoff, challenge reveal &amp; idea pitches</span><span class="schedule-type">START</span></div>
+            <div class="schedule-item"><time>12:00</time><span>Build time begins—mentors on hand</span><span class="schedule-type">BUILD</span></div>
+            <div class="schedule-item"><time>18:00</time><span>Food, check-in &amp; keep creating</span><span class="schedule-type">MAKE</span></div>
+          </div>
+          <div class="schedule-day">
+            <div class="day-heading"><span>DAY 02</span><strong>Sunday, January 24</strong></div>
+            <div class="schedule-item"><time>09:00</time><span>Breakfast &amp; final build session</span><span class="schedule-type">BUILD</span></div>
+            <div class="schedule-item"><time>13:00</time><span>Project demos for the judging panel</span><span class="schedule-type">DEMO</span></div>
+            <div class="schedule-item"><time>15:00</time><span>Community vote &amp; prize announcements</span><span class="schedule-type">CELEBRATE</span></div>
+            <div class="schedule-item"><time>16:00</time><span>Closing remarks &amp; group photo</span><span class="schedule-type">FINISH</span></div>
+          </div>
+          <p class="schedule-note">Sample schedule · January 2027 · Times and activities may change.</p>
+        </div>
+      </section>
+
+      <section class="judges-section" id="judges">
+        <div class="judges-heading">
+          <span class="section-tag"><span>05</span> / THE JUDGES</span>
+          <h2>Fresh eyes.<br /><span>Thoughtful feedback.</span></h2>
+          <p>Meet the people who’ll cheer you on, ask good questions, and help celebrate your work.</p>
+        </div>
+        <div class="judge-grid">
+          <article class="judge-card">
+            <div class="judge-avatar avatar-one" aria-hidden="true"><span>F</span><i>✳</i></div>
+            <span class="judge-status">JUDGE PROFILE / TBA</span>
+            <h3>Faculty mentor</h3>
+            <p>Brings an educator’s eye for clear thinking and thoughtful execution.</p>
+          </article>
+          <article class="judge-card">
+            <div class="judge-avatar avatar-two" aria-hidden="true"><span>A</span><i>✦</i></div>
+            <span class="judge-status">JUDGE PROFILE / TBA</span>
+            <h3>Alumni builder</h3>
+            <p>Shares a maker’s perspective on turning promising ideas into real products.</p>
+          </article>
+          <article class="judge-card">
+            <div class="judge-avatar avatar-three" aria-hidden="true"><span>I</span><i>✧</i></div>
+            <span class="judge-status">JUDGE PROFILE / TBA</span>
+            <h3>Industry innovator</h3>
+            <p>Looks for projects with a fresh approach and room to make an impact.</p>
+          </article>
+        </div>
+        <p class="judges-note">Judges’ names and profiles will be announced by the organizing team.</p>
+      </section>
+
+      <section class="register-section" id="register">
+        <div class="register-backdrop" aria-hidden="true"></div>
+        <div class="register-copy">
+          <span class="section-tag"><span>06</span> / YOUR TURN</span>
+          <h2>Got an idea?<br /><span>Let’s build it.</span></h2>
+          <p>Grab your teammates or sign up solo. We’ll help you find a crew when you arrive.</p>
+          <div class="register-info"><span aria-hidden="true">↳</span><span><strong>Who can join?</strong> Current Northfield College students of all disciplines and experience levels.</span></div>
+          <div class="register-info"><span aria-hidden="true">↳</span><span><strong>Team size</strong> 2–4 students. Signing up solo? We’ll help you find a team.</span></div>
+        </div>
+        <form class="registration-form" id="registration-form">
+          <div class="form-heading">
+            <span>HACKATHON / ENTRY FORM</span>
+            <span class="form-step">01 — 01</span>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="student-name">Your name <span>*</span></label>
+              <input id="student-name" name="student-name" type="text" autocomplete="name" placeholder="e.g. Alex Morgan" required />
+            </div>
+            <div class="field">
+              <label for="student-email">College email <span>*</span></label>
+              <input id="student-email" name="student-email" type="email" autocomplete="email" placeholder="you@college.edu" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="team-name">Team name <span>*</span></label>
+              <input id="team-name" name="team-name" type="text" placeholder="Give your team a name" required />
+            </div>
+            <div class="field">
+              <label for="team-size">Team size <span>*</span></label>
+              <select id="team-size" name="team-size" required>
+                <option value="" disabled selected>Select size</option>
+                <option value="1">Just me (help me find a team)</option>
+                <option value="2">2 students</option>
+                <option value="3">3 students</option>
+                <option value="4">4 students</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="project-idea">What would you like to build? <span class="optional">(optional)</span></label>
+            <textarea id="project-idea" name="project-idea" rows="3" placeholder="A rough idea is perfect. Still figuring it out? That's welcome too."></textarea>
+          </div>
+          <label class="consent-option">
+            <input type="checkbox" name="student-confirmation" required />
+            <span class="custom-checkbox" aria-hidden="true"></span>
+            I’m a current Northfield College student and agree to be contacted about the event.
+          </label>
+          <button class="button button-submit" type="submit">Register your interest <span aria-hidden="true">↗</span></button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          <p class="form-notice"><span aria-hidden="true">ⓘ</span> Demo form only: registrations are not stored or sent. Connect an event registration service before publishing.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-symbol" aria-hidden="true">&lt;/&gt;</span>
+        <span>NORTHFIELD <span class="brand-divider">/</span> BUILDATHON</span>
+      </a>
+      <span class="footer-copy">MADE BY STUDENTS, FOR STUDENTS <span>✳</span> JANUARY 2027</span>
+      <a class="footer-top" href="#home">BACK TO TOP ↑</a>
+      <p class="draft-note">Planning concept: confirm the event date, schedule, venue, prize amounts, eligibility, and registration process before sharing.</p>
+    </footer>
+  </body>
+</html>
